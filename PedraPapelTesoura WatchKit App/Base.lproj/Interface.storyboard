@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller fullBounds="YES" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PedraPapelTesoura_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="0.59999999999999998" alignment="left" image="papel" contentMode="scaleAspectFit" id="mBP-VA-UEe"/>
+                        <label alignment="center" text="Escolha uma opção!" minimumScaleFactor="0.0" id="Dte-yh-m5y">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <group width="1" alignment="center" id="npF-my-9Vp">
+                            <items>
+                                <button width="0.29999999999999999" height="1" alignment="center" backgroundImage="tesoura" id="Ylu-6k-kdr">
+                                    <connections>
+                                        <action selector="buttonTesoura" destination="AgC-eL-Hgc" id="TSj-Sx-H9U"/>
+                                    </connections>
+                                </button>
+                                <button width="0.29999999999999999" height="1" alignment="center" backgroundImage="pedra" id="rE7-x0-QSC">
+                                    <connections>
+                                        <action selector="buttonPedra" destination="AgC-eL-Hgc" id="gim-iz-TU2"/>
+                                    </connections>
+                                </button>
+                                <button width="0.29999999999999999" height="1" alignment="center" backgroundImage="papel" id="K3H-gv-jZw">
+                                    <connections>
+                                        <action selector="buttonPapel" destination="AgC-eL-Hgc" id="3vZ-1h-bob"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.94525176290000001" green="0.94596821070000003" blue="0.94536274669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="imagem" destination="mBP-VA-UEe" id="MJa-0Q-1ZD"/>
+                        <outlet property="txtResultado" destination="Dte-yh-m5y" id="gcf-uP-gir"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

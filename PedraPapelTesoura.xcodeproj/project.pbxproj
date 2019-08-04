@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDED91F22F680EE008260BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDED91E22F680EE008260BC /* AppDelegate.swift */; };
+		0DDED92122F680EE008260BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDED92022F680EE008260BC /* ViewController.swift */; };
+		0DDED92422F680EE008260BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED92222F680EE008260BC /* Main.storyboard */; };
+		0DDED92622F680F2008260BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED92522F680F2008260BC /* Assets.xcassets */; };
+		0DDED92922F680F2008260BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED92722F680F2008260BC /* LaunchScreen.storyboard */; };
+		0DDED92E22F680F2008260BC /* PedraPapelTesoura WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0DDED92D22F680F2008260BC /* PedraPapelTesoura WatchKit App.app */; };
+		0DDED93422F680F2008260BC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED93222F680F2008260BC /* Interface.storyboard */; };
+		0DDED93622F680F4008260BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED93522F680F4008260BC /* Assets.xcassets */; };
+		0DDED93D22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0DDED93C22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0DDED94222F680F4008260BC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDED94122F680F4008260BC /* InterfaceController.swift */; };
+		0DDED94422F680F4008260BC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDED94322F680F4008260BC /* ExtensionDelegate.swift */; };
+		0DDED94622F680F6008260BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDED94522F680F6008260BC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DDED92F22F680F2008260BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDED91322F680EE008260BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDED92C22F680F2008260BC;
+			remoteInfo = "PedraPapelTesoura WatchKit App";
+		};
+		0DDED93E22F680F4008260BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDED91322F680EE008260BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDED93B22F680F4008260BC;
+			remoteInfo = "PedraPapelTesoura WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DDED94D22F680F6008260BC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0DDED93D22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDED95122F680F6008260BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0DDED92E22F680F2008260BC /* PedraPapelTesoura WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DDED91B22F680EE008260BC /* PedraPapelTesoura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedraPapelTesoura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDED91E22F680EE008260BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DDED92022F680EE008260BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DDED92322F680EE008260BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DDED92522F680F2008260BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDED92822F680F2008260BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DDED92A22F680F2008260BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDED92D22F680F2008260BC /* PedraPapelTesoura WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PedraPapelTesoura WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDED93322F680F2008260BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0DDED93522F680F4008260BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDED93722F680F4008260BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDED93C22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PedraPapelTesoura WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDED94122F680F4008260BC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0DDED94322F680F4008260BC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0DDED94522F680F6008260BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDED94722F680F6008260BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDED91822F680EE008260BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDED93922F680F4008260BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDED91222F680ED008260BC = {
+			isa = PBXGroup;
+			children = (
+				0DDED91D22F680EE008260BC /* PedraPapelTesoura */,
+				0DDED93122F680F2008260BC /* PedraPapelTesoura WatchKit App */,
+				0DDED94022F680F4008260BC /* PedraPapelTesoura WatchKit Extension */,
+				0DDED91C22F680EE008260BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DDED91C22F680EE008260BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DDED91B22F680EE008260BC /* PedraPapelTesoura.app */,
+				0DDED92D22F680F2008260BC /* PedraPapelTesoura WatchKit App.app */,
+				0DDED93C22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDED91D22F680EE008260BC /* PedraPapelTesoura */ = {
+			isa = PBXGroup;
+			children = (
+				0DDED91E22F680EE008260BC /* AppDelegate.swift */,
+				0DDED92022F680EE008260BC /* ViewController.swift */,
+				0DDED92222F680EE008260BC /* Main.storyboard */,
+				0DDED92522F680F2008260BC /* Assets.xcassets */,
+				0DDED92722F680F2008260BC /* LaunchScreen.storyboard */,
+				0DDED92A22F680F2008260BC /* Info.plist */,
+			);
+			path = PedraPapelTesoura;
+			sourceTree = "<group>";
+		};
+		0DDED93122F680F2008260BC /* PedraPapelTesoura WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0DDED93222F680F2008260BC /* Interface.storyboard */,
+				0DDED93522F680F4008260BC /* Assets.xcassets */,
+				0DDED93722F680F4008260BC /* Info.plist */,
+			);
+			path = "PedraPapelTesoura WatchKit App";
+			sourceTree = "<group>";
+		};
+		0DDED94022F680F4008260BC /* PedraPapelTesoura WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DDED94122F680F4008260BC /* InterfaceController.swift */,
+				0DDED94322F680F4008260BC /* ExtensionDelegate.swift */,
+				0DDED94522F680F6008260BC /* Assets.xcassets */,
+				0DDED94722F680F6008260BC /* Info.plist */,
+			);
+			path = "PedraPapelTesoura WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DDED91A22F680EE008260BC /* PedraPapelTesoura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDED95222F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura" */;
+			buildPhases = (
+				0DDED91722F680EE008260BC /* Sources */,
+				0DDED91822F680EE008260BC /* Frameworks */,
+				0DDED91922F680EE008260BC /* Resources */,
+				0DDED95122F680F6008260BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDED93022F680F2008260BC /* PBXTargetDependency */,
+			);
+			name = PedraPapelTesoura;
+			productName = PedraPapelTesoura;
+			productReference = 0DDED91B22F680EE008260BC /* PedraPapelTesoura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DDED92C22F680F2008260BC /* PedraPapelTesoura WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDED94E22F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura WatchKit App" */;
+			buildPhases = (
+				0DDED92B22F680F2008260BC /* Resources */,
+				0DDED94D22F680F6008260BC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDED93F22F680F4008260BC /* PBXTargetDependency */,
+			);
+			name = "PedraPapelTesoura WatchKit App";
+			productName = "PedraPapelTesoura WatchKit App";
+			productReference = 0DDED92D22F680F2008260BC /* PedraPapelTesoura WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0DDED93B22F680F4008260BC /* PedraPapelTesoura WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDED94A22F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura WatchKit Extension" */;
+			buildPhases = (
+				0DDED93822F680F4008260BC /* Sources */,
+				0DDED93922F680F4008260BC /* Frameworks */,
+				0DDED93A22F680F4008260BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PedraPapelTesoura WatchKit Extension";
+			productName = "PedraPapelTesoura WatchKit Extension";
+			productReference = 0DDED93C22F680F4008260BC /* PedraPapelTesoura WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DDED91322F680EE008260BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eduarda Mello";
+				TargetAttributes = {
+					0DDED91A22F680EE008260BC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0DDED92C22F680F2008260BC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0DDED93B22F680F4008260BC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0DDED91622F680EE008260BC /* Build configuration list for PBXProject "PedraPapelTesoura" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DDED91222F680ED008260BC;
+			productRefGroup = 0DDED91C22F680EE008260BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DDED91A22F680EE008260BC /* PedraPapelTesoura */,
+				0DDED92C22F680F2008260BC /* PedraPapelTesoura WatchKit App */,
+				0DDED93B22F680F4008260BC /* PedraPapelTesoura WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DDED91922F680EE008260BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDED92922F680F2008260BC /* LaunchScreen.storyboard in Resources */,
+				0DDED92622F680F2008260BC /* Assets.xcassets in Resources */,
+				0DDED92422F680EE008260BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDED92B22F680F2008260BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDED93622F680F4008260BC /* Assets.xcassets in Resources */,
+				0DDED93422F680F2008260BC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDED93A22F680F4008260BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDED94622F680F6008260BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDED91722F680EE008260BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDED92122F680EE008260BC /* ViewController.swift in Sources */,
+				0DDED91F22F680EE008260BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDED93822F680F4008260BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDED94422F680F4008260BC /* ExtensionDelegate.swift in Sources */,
+				0DDED94222F680F4008260BC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDED93022F680F2008260BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDED92C22F680F2008260BC /* PedraPapelTesoura WatchKit App */;
+			targetProxy = 0DDED92F22F680F2008260BC /* PBXContainerItemProxy */;
+		};
+		0DDED93F22F680F4008260BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDED93B22F680F4008260BC /* PedraPapelTesoura WatchKit Extension */;
+			targetProxy = 0DDED93E22F680F4008260BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DDED92222F680EE008260BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDED92322F680EE008260BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DDED92722F680F2008260BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDED92822F680F2008260BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0DDED93222F680F2008260BC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDED93322F680F2008260BC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DDED94822F680F6008260BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DDED94922F680F6008260BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DDED94B22F680F6008260BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				INFOPLIST_FILE = "PedraPapelTesoura WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0DDED94C22F680F6008260BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				INFOPLIST_FILE = "PedraPapelTesoura WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0DDED94F22F680F6008260BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				IBSC_MODULE = PedraPapelTesoura_WatchKit_Extension;
+				INFOPLIST_FILE = "PedraPapelTesoura WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0DDED95022F680F6008260BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				IBSC_MODULE = PedraPapelTesoura_WatchKit_Extension;
+				INFOPLIST_FILE = "PedraPapelTesoura WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0DDED95322F680F6008260BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				INFOPLIST_FILE = PedraPapelTesoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DDED95422F680F6008260BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
+				INFOPLIST_FILE = PedraPapelTesoura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duda.PedraPapelTesoura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDED91622F680EE008260BC /* Build configuration list for PBXProject "PedraPapelTesoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDED94822F680F6008260BC /* Debug */,
+				0DDED94922F680F6008260BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDED94A22F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDED94B22F680F6008260BC /* Debug */,
+				0DDED94C22F680F6008260BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDED94E22F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDED94F22F680F6008260BC /* Debug */,
+				0DDED95022F680F6008260BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDED95222F680F6008260BC /* Build configuration list for PBXNativeTarget "PedraPapelTesoura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDED95322F680F6008260BC /* Debug */,
+				0DDED95422F680F6008260BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DDED91322F680EE008260BC /* Project object */;
+}
